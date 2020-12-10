@@ -131,7 +131,7 @@ export default function updateTag (appId, options, type, tags, head, body) {
       return
     }
 
-    head.appendChild(element)
+    head.prepend(element)
   })
 
   return {
